@@ -1,0 +1,118 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style-type: none;
+}
+.header{
+   background-color: #040239;
+   padding: 20px 0;
+   color: #fff;
+   align-items:center;
+}
+.container{
+   max-width: 80%;
+   margin:0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.soff_logo{
+   display: flex;
+   align-items: center;
+}
+.soff_logo img{
+   width: 100px;
+}
+.soff_logo i{
+   margin: 0 20px;
+}
+.soff_icons{
+   display: flex;
+   align-items:center;
+}
+.soff_icons i{
+   margin: 10px;
+}
+.soff_logo form input{
+   padding: 10px;
+   border: none;
+   width: 400px;
+
+}
+.soff_logo span{
+   background-color:green;
+   padding: 8.8px;
+   border:none;
+   margin-left: -6px;
+   border-radius:0 5px 5px 0;
+}
+.soff_icons span{
+   margin: 0 5px;
+}
+.soff_icons i:hover{
+   color: #02ff5f;
+   padding: 1px;
+}
+.box-1{
+  margin-top: 30px ;
+}
+.box-1 i{
+   margin: 0 8px;
+}
+.box-1 i a{
+   margin: 0 10px;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   list-style: none;
+   color:#fff;
+ }
+
+ .box-1 i:hover{
+   color: #02ff5f;
+   transition: .5s all;
+   padding:0 2px;
+}
+.box-1 i a:hover{
+   color: #02ff5f;
+   transition: .5s all;
+   padding: 0 2px;
+}
+.my_kart{
+   display: grid;
+   grid-template-columns: 65% 35%;
+   gap: 2rem;
+   margin: 30px;
+   
+}
+.box_img img{
+   width: 100%;
+   height: auto;
+}
+.box_text img{
+   width: 100%;
+   height: 200px;
+
+}
+.btn{
+   width: 100%;
+   border:none;
+   display:flex;
+   align-items:center;
+   padding: 20px 20px;
+   background-color:#019136;
+   border-radius:10px;
+   color: #fff;
+   font-size: 1.2rem;
+
+}
+.btn p{
+   font-size: 1.4rem;
+   font-weight: bold;
+}

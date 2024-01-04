@@ -1,0 +1,75 @@
+@media only screen and (max-width:1200px){
+   .soff_logo form{
+      display: none;
+   }
+   .soff_icons i{
+      background-color:#2d5f02;
+   }
+   .soff_icons span{
+      font-size: 1.7rem;
+      font-weight: bold;
+      font-family: sans-serif;
+   }
+   .box-1{
+      display:flex;
+      justify-content: center;
+   }
+   
+}
+
+@media only screen and (max-width:900px){
+   .box-1{
+      display:flex;
+      justify-content: center;
+   }
+}
+
+@media only screen and (max-width:750px){
+
+   header{
+      display: flex;
+      justify-content: center;
+   }
+   .soff_icons{
+      display: none;
+   }
+   .box-1{
+      display:none;
+      justify-content: center;
+      font-size: 0.6rem;
+   }
+   box-1 a{
+      font-size: 0.6rem;
+   }
+}
+
+@media only screen and (max-width:520px){
+   .my_kart{
+      display: grid;
+      grid-template-columns: 100%;
+      /* gap: 2rem;
+      margin: 30px; */
+      
+   }
+   .btn{
+      font-size: 0.6rem;
+   }
+   .btn p{
+      font-size: 0.6rem;
+   }
+}
+
+@media only screen and (max-width:375px){
+  
+  .soff_logo img{
+     width: 75px;
+  }
+  
+  
+   .soff_icons span{
+      font-size: 1rem;
+      font-weight: bold;
+      font-family: sans-serif;
+   }
+   
+}
